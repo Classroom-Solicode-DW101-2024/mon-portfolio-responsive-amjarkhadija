@@ -1,0 +1,381 @@
+body {
+    background-color: #000000; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 1%;
+}
+
+
+nav {
+    background-color: #373A43;  
+    padding: 40px ;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    color: #ADADAD;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.menu-toggle {
+    display: none;
+     background: none;
+        border: none;
+        cursor: pointer;
+        margin-left: 90%;
+        margin-top: -6%;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+padding: 2%;
+}
+
+.content-div{
+    flex: 1;
+    max-width: 80%;
+}
+.content-div h1 {
+    color: white;
+    font-size: 100px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content .lead {
+    color: #ADADAD;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero-img{
+    text-align: center;
+    width: 80%;
+margin-left: 50%;
+margin-top: -35%;
+   
+}
+
+
+.about-me {
+    padding: 80px 5%;
+    background-color: #13131E; 
+    text-align: center;
+}
+
+.about-me .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.about-image {
+    width: 35%;
+    border-radius: 10px;
+    
+}
+
+.about-text {
+    max-width: 500px;
+    color: white;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom:55%;
+    color: #ffffff; 
+   margin-right: 60%;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom:45%;
+
+
+
+}
+
+.about-text strong {
+    color: #ADADAD; 
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-top: 5%;
+}
+
+.skills-container img {
+    width: 80px;
+    height: 80px;
+    background-color: #13131E;
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.highlight {
+    color: #ADADAD; 
+    font-weight: bold;
+}
+
+
+
+.form-container {
+    background: #373A43;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-left: 30%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-container label{
+    color: white;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 5%;
+    padding: 10px;
+    background: #ADADAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+    
+.projects-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+}
+
+.project-card a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    background: #ADADAD;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.project-card a:hover {
+    background: #adadad;
+}
+ #submit{
+    background: #ADADAD;
+    width: 30%;
+    
+ }
+
+ footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 5%;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: #43423a;
+  }
+  
+  
+  
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+       
+    }
+
+    .menu-toggle .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: white;
+    }
+
+    .hero {
+        padding: 5%;
+        text-align: center;
+        
+    }
+
+    .content-div h1 {
+        font-size: 20px;
+        margin-left: 25%;
+    }
+
+    .content .lead {
+        font-size: 20px;
+        margin-left: 25%;
+    }
+
+    .img-robot{
+        width: 60%;
+        margin-top: 50%;
+        margin-left: -95%;
+    }
+
+    .about-image {
+        width: 80%;
+    }
+
+  
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-container img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .form-container {
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    button {
+        width:100%;
+}
+.projects-div{
+    width: 500px;
+    margin-left: 10%;
+}
+}
+@media (max-width: 576px) {
+    footer {
+      font-size: 14px;
+      padding: 1rem 0;
+    }
+  
+    footer p {
+      margin-bottom: 5px;
+    }
+  
+    footer a {
+      display: block; 
+      margin: 5px 0;
+    }
+  }

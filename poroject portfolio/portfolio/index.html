@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+    <label class="logo">Khadija Amjar</label>
+    <button class="menu-toggle" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <ul id="nav-links">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact me</a></li>
+    </ul>
+</nav>
+
+    <section class="hero">
+        <div class="content">
+            <div class="content-div">
+                <h1 class="h1-lead">Hi, I'm <br> Khadija Amjar</h1>
+                <p class="lead">Together we can make the world wide web an awesome place to be.</p>
+            </div>
+            <div class="hero-img ">
+                <img src="img/ropot.png" alt="Robot Image" class="img-robot">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="container">
+            <img src="img/laptop.png" alt="Coding Image" class="about-image">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am <strong>Khadija</strong>, a <strong>Web Developer</strong> with a passion for creating beautiful and responsive websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <img src="img/git.png" alt="Git">
+            <img src="img/css.png" alt="CSS">
+            <img src="img/js.png" alt="JavaScript">
+            <img src="img/node.png" alt="Node.js">
+            <img src="img/github.png" alt="GitHub">
+            <img src="img/figma.png" alt="Figma">
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-div">
+        </div>
+    </section>
+    <div class="form-container">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" id="submit">Send Message</button>
+        </form>
+    </div>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <p>&copy; 2025 All Rights Reserved</p>
+          <p>Follow us on: 
+            <a href="#" class="text-white">Facebook</a> | 
+            <a href="#" class="text-white">Twitter</a> | 
+            <a href="#" class="text-white">Instagram</a>
+          </p>
+          <p><a href="/blog" class="text-white">Visit the Blog</a></p>
+        </div>
+      </footer>
+      
+    <script src="script.js"></script>
+</body>
+</html>

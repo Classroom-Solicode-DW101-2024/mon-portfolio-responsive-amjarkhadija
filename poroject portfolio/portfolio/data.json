@@ -1,0 +1,27 @@
+ {
+    "projects":
+ 
+ [ {
+     
+    "title": "Restaurant Blog",
+    "description": "A blog that helps users discover restaurants in Tangier, built with JavaScript and REST API.",
+    "image": "img/restaurant.png",
+    "link": "https://yourwebsite.com/restaurant-blog"
+  },
+    {
+
+      "title": "books",
+      "description": "A simple contact form using only HTML, CSS, and Media Queries.",
+      "image": "img/books.png",
+      "link": "https://yourwebsite.com/contact-form"
+    },
+   
+    {
+        "title": "desserts",
+        "description": "A delicious cheesecake with a strawberry topping and a buttery crust.",
+        "image": "img/desserts.png",
+        "link": "https://yourwebsite.com/strawberry-cheesecake"
+      }
+     
+  ]
+}
